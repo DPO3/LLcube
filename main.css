@@ -14,14 +14,12 @@
 }
 
 body { 
-  background-color: rgb(255, 196, 0);
+  /* background-color: rgb(255, 196, 0); */
   background: rgb(255, 196, 0);
-  background: linear-gradient(
-    171deg,
-    rgb(255, 115, 0) 0%,
-    rgb(255, 196, 0) 50%,
-    rgb(255, 238, 0) 100%
-  );
+  background: linear-gradient
+    rgb(255, 115, 0),
+    rgb(239 222 8);
+
   font-size: 18px;
   /* background-repeat: no-repeat;
   background-size: 120px;
@@ -40,7 +38,7 @@ div {
 .wrapper {
   max-width: 850px;
   /* height: auto; */
-  background-color:  rgb(255, 210, 125);
+  background-color:  rgb(255, 145, 0);
   padding: 0;
   margin: 15px auto 25px auto;
 
@@ -73,32 +71,31 @@ div img {
   text-align: center;
 }
 .wrapper div button {
-  background-color: rgb(255, 205, 66);
+  background-color: rgb(255, 193, 111);
   padding: 25px;
   border-radius: 15px;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Alumni Sans", sans-serif;
-  color: rgb(255, 170, 73);
-  cursor: pointer;
-  transition: 0.5s; /* анимация простейшая */
+  color:  rgb(255, 255, 255);
+  cursor:  pointer;
+  transition:  1s; /* анимация простейшая */
 }
 
 .wrapper div button:hover {
-  background-color: rgb(255, 166, 0);
-  border-radius: 5px;
+  color: rgb(255, 166, 0);
 }
 
 /* -------- меню сайта ------------- */
 
 .menuTop {
-background-color: rgb(255, 210, 125);
+background-color: rgb(255, 166, 0);
 
 
 
 
 }
 .menuFooter {
-  background-color: rgb(255, 166, 0);
+  background-color: rgb(255, 198, 92);
   /* line-height: 150px; */
   display: inline-block;
 }
@@ -106,9 +103,6 @@ background-color: rgb(255, 210, 125);
 .logo {
   width: 120px;
   margin: 15px;
-}
-
-.linkLogo {
 }
 
 nav ul {
@@ -123,32 +117,32 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(255, 207, 102);
-  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
   font-family: "Alumni Sans", sans-serif;
   text-decoration: none;
   transition: 1s; /* анимация простейшая */
 }
 
 nav ul li a:hover {
-  color: rgb(255, 200, 80);
-  border-bottom: 10px solid rgb(255, 115, 0);
+  color: rgb(255, 145, 0);
+  border-bottom: 10px rgb(255, 153, 69);
 }
 
 .art1 {
-  background-image: url("/parallax1.jpg");
+  background-color: rgb(255, 170, 59);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .art2 {
-  background-image: url("/parallax1.jpg");
+  background-color: rgb(255, 170, 59);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .art3 {
-  background-image: url("/parallax1.jpg");
+  background-color: rgb(255, 170, 59);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -156,5 +150,21 @@ nav ul li a:hover {
 
 footer{background-color: rgb(255, 170, 59);
 text-align: center;
-color: rgb(255, 94, 0);
+color: rgb(255, 160, 71)
+}
+
+.gl{
+  font-size: 25px;
+}
+.helper {
+  color: rgb(255, 230, 6);
+  font-size: 25px;
+}
+.Mlmoder {
+  color: rgb(0, 183, 255);
+  font-size: 25px;
+}
+.Glmoder {
+  color: rgb(163, 83, 255);
+  font-size: 25px;
 }
