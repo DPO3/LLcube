@@ -73,12 +73,12 @@ div img {
   text-align: center;
 }
 .wrapper div button {
-  background-color: rgb(255, 187, 0);
+  background-color: rgb(255, 205, 66);
   padding: 25px;
   border-radius: 15px;
   font-size: 40px;
   font-family: "Alumni Sans", sans-serif;
-  color: rgb(252, 131, 50);
+  color: rgb(255, 170, 73);
   cursor: pointer;
   transition: 0.5s; /* анимация простейшая */
 }
@@ -136,19 +136,19 @@ nav ul li a:hover {
 }
 
 .art1 {
-  background-image: url("fon/parallax1.jpg");
+  background-image: url("/parallax1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .art2 {
-  background-image: url("fon/parallax1.jpg");
+  background-image: url("/parallax1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .art3 {
-  background-image: url("fon/parallax1.jpg");
+  background-image: url("/parallax1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
