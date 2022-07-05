@@ -14,8 +14,8 @@
 }
 
 body { 
-  background-color: rgb(255, 238, 0);
-  background: rgb(255, 238, 0);
+  background-color: rgb(255, 196, 0);
+  background: rgb(255, 196, 0);
   background: linear-gradient(
     171deg,
     rgb(255, 115, 0) 0%,
@@ -78,13 +78,13 @@ div img {
   border-radius: 15px;
   font-size: 40px;
   font-family: "Alumni Sans", sans-serif;
-  color: rgb(255, 216, 145);
+  color: rgb(179, 116, 0);
   cursor: pointer;
   transition: 0.5s; /* анимация простейшая */
 }
 
 .wrapper div button:hover {
-  background-color: rgb(255, 234, 195);
+  background-color: rgb(255, 166, 0);
   border-radius: 5px;
 }
 
