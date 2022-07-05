@@ -136,19 +136,19 @@ nav ul li a:hover {
 }
 
 .art1 {
-  background-image: url("parallax1.jpg");
+  background-image: url("img/parallax1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .art2 {
-  background-image: url("parallax1.jpg");
+  background-image: url("img/parallax1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .art3 {
-  background-image: url("parallax1.jpg");
+  background-image: url("img/parallax1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
